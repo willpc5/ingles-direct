@@ -130,3 +130,11 @@ header {
   font-weight: 700;
   font-size: 14px;
 }
+
+@media (max-width: 550px) {
+
+  .btn-checkout {
+    padding: 20px;
+  }
+
+}
