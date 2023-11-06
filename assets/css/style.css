@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #cf2e2e;
-  color: #FFF;
+  color: #fff;
   font-family: 'Lato', sans-serif;
   font-family: 'Merriweather Sans', sans-serif;
   font-family: 'Roboto', sans-serif;
@@ -67,7 +67,7 @@ header {
 .btn-checkout {
   padding: 20px;
   background-color: rgba(6, 147, 227, 1);
-  color: #FFF;
+  color: #fff;
   font-size: 30px;
   font-weight: bold;
   border-radius: 10px;
@@ -95,6 +95,7 @@ header {
 }
 
 #back-to-top {
+  display: none;
   position: fixed;
   bottom: 50px;
   right: 50px;
@@ -116,7 +117,6 @@ header {
 }
 
 @media (max-width: 1080px) {
-
   .banner-text h1 {
     font-size: 32px;
   }
@@ -152,11 +152,9 @@ header {
     justify-content: center;
     align-items: center;
   }
-
 }
 
 @media (max-width: 900px) {
-
   .banner-container {
     display: flex;
     width: 100vw;
@@ -175,7 +173,6 @@ header {
 }
 
 @media (max-width: 550px) {
-
   .banner-text {
     width: 50%;
     display: flex;
@@ -217,7 +214,7 @@ header {
   .btn-checkout {
     padding: 18px;
     background-color: rgba(6, 147, 227, 1);
-    color: #FFF;
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
     border-radius: 10px;
@@ -230,12 +227,11 @@ header {
   }
 
   #back-to-top {
+    display: block;
     position: fixed;
     bottom: 40px;
     right: 22px;
     border: 0;
     cursor: pointer;
   }
-
-
 }
