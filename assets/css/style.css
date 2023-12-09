@@ -65,12 +65,6 @@ main section {
     border-radius: 5px;
 }
 
-
-.main-text img {
-    width: 5rem;
-    margin-bottom: 3vh;
-}
-
 .main-text h1 {
     font-size: 2.5rem;
 }
@@ -179,6 +173,10 @@ footer {
         border-radius: 5px;
     }
 
+    main section {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 
     .navigation .logo {
         width: 90px;
@@ -218,7 +216,6 @@ footer {
     }
 
     
-
 }
 
 @media (max-width: 500px) {
